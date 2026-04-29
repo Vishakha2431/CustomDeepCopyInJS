@@ -7,7 +7,7 @@ const obj={
         frameworksAndLibraries:["react","Android","redux"]
     }
 };
-//shallow copy cons are nested object 
+//shallow copy cons are nested object because it will copy first layer only
 // const copyObj =obj
 // console.log(obj)
 // copyObj.skills.frameworksAndLibraries.push("spring")
